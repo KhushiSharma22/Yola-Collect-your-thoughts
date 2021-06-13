@@ -3,6 +3,7 @@ package com.example.yola_notes
 import android.content.Intent
 import android.os.Bundle
 import android.os.Handler
+import android.view.animation.AnimationUtils
 import android.widget.ImageView
 import androidx.appcompat.app.AppCompatActivity
 
@@ -17,6 +18,9 @@ class SplashScreen : AppCompatActivity() {
 
         imageView = findViewById(R.id.imageView)
         handler = Handler()
+
+        val fadein = AnimationUtils.loadAnimation(this,R.anim.fadein)
+        imageView.startAnimation(fadein)
 
         val intent = Intent(applicationContext, MainActivity::class.java)
 
