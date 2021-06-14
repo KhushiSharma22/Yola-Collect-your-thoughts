@@ -16,8 +16,31 @@
             android:id="@+id/textView3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
             android:text="Add a Note"
-            android:textColor="#FEA82F" />
+            android:textAlignment="center"
+            android:textColor="#FEA82F"
+            android:textSize="36sp" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Title"
+            android:inputType="textPersonName"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Start collecting your thoughts here!"
+            android:inputType="textMultiLine"
+            android:scrollbars="vertical"
+            android:textSize="24sp" />
+
     </LinearLayout>
 
 </FrameLayout>
