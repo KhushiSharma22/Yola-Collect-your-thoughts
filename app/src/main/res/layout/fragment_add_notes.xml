@@ -1,46 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".AddNotes"
-    android:background="@color/background_peach">
 
-
-    <LinearLayout
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        tools:context=".AddNotes"
+        android:background="@color/background_peach">
 
-        <TextView
-            android:id="@+id/textView3"
+
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:fontFamily="sans-serif-black"
-            android:text="Add a Note"
-            android:textAlignment="center"
-            android:textColor="#FEA82F"
-            android:textSize="36sp" />
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
-        <EditText
-            android:id="@+id/editTextTextPersonName"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:hint="Title"
-            android:inputType="textPersonName"
-            android:textSize="24sp" />
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:text="Add a Note"
+                android:textAlignment="center"
+                android:textColor="#FEA82F"
+                android:textSize="36sp" />
 
-        <EditText
-            android:id="@+id/editTextTextPersonName2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:hint="Start collecting your thoughts here!"
-            android:inputType="textMultiLine"
-            android:scrollbars="vertical"
-            android:textSize="24sp" />
+            <EditText
+                android:id="@+id/editTextTextPersonName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Title"
+                android:inputType="textPersonName"
+                android:textSize="24sp" />
 
-    </LinearLayout>
+            <EditText
+                android:id="@+id/editTextTextPersonName2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Start collecting your thoughts here!"
+                android:inputType="textMultiLine"
+                android:scrollbars="vertical"
+                android:textSize="24sp" />
 
-</FrameLayout>
+        </LinearLayout>
+
+    </FrameLayout>
+
